@@ -20,6 +20,6 @@ class TimeCommand extends GreetCommand {
     public function execute(InputInterface $input, OutputInterface $output) {
         $this->greetUser($input, $output);
 
-        return 0;
+        return true;
     }
 }
